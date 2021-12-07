@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.university {
+    background-color: #1b2361;
+    display: flex;
+    justify-content: center;
+      /*padding-left: 260px;*/
+    min-height: 100vh;
+    font-size: 30px;
+    color: #1b2361;
+  }
+
+.container-bsu1 {
+    width: 66%;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    justify-content: center;
+    /*padding-right: 7px;*/
+    background-color: #434c9c;
+}
+  
+.container-bsu2 {
+    /*padding-right: 10px;*/
+    padding-bottom: 8px;
+    padding-top: 180px;
+    background-color: #868bc2;
+    min-height: 60%;
+}
+
+.container-bsu2 h1 {
+    margin-left: 40%;
+}

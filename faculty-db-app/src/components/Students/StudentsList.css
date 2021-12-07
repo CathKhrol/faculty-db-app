@@ -1,0 +1,106 @@
+.styled-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+
+
+    max-width: 700px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.styled-table thead tr{
+    background-color: #1b2361;
+    color: #fff;
+    text-align: left;
+}
+
+.styled-table thead tr th{
+    text-align: center;
+}
+
+.styled-table tbody {
+    text-align: center;
+}
+
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr:nth-child(even){
+	background: #f0f0f0;
+}
+
+
+.btn {
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: #e7e7e7;
+    color: #1b2361;
+}
+
+.btn-edit:hover {
+    background-color: #d1d1d1;
+    border-color: #363b80;
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 10px;
+}
+
+.btn-view {
+    background-color: #1b2361;
+}
+
+.btn-view:hover {
+    background-color: #3f4491;
+    box-shadow: #1b2361 0 1px 7px;
+}
+
+
+.buttons {
+    display: inline-block;
+}
+
+.btn-back {
+    padding: 15px 26px;
+    border-style: solid;
+    background-color: #1b2361;
+    border-color: #bdbcbc;
+    margin: 30px 100px;
+}
+
+
+.btn-back:hover {
+    border-radius: 5px;
+    border-style: solid;
+    background-color: #363b80;
+    border-color: #1b2361;
+    color: #e7e7e7;
+}
+
+.btn-edit-stud {
+    padding: 15px 26px;
+    border-style: solid;
+    background-color: #e7e7e7;
+    color: #1b2361;
+    border-color: #1b2361;
+    margin: 30px;
+}
+
+.btn-edit-stud:hover {
+    border-radius: 5px;
+    border-style: solid;
+    background-color: #d1d1d1;
+    border-color: #363b80;
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 5px;
+}

@@ -1,0 +1,27 @@
+.card {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border: 1px #1b2361 solid;
+    margin: auto;
+    align-content: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-header {
+    height: 50%;
+    background: #1b2361;
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+
+.card-header p {
+    font-size: 23px;
+}
+
+.container {
+    padding: 10%;
+    font-size: 18px;
+}
